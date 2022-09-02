@@ -1,10 +1,5 @@
-import Header from "../components/Header.tsx";
+import { Layout } from '~/components/Layout.tsx';
 
 export default function App({ children }: { children: React.ReactNode }) {
-  return (
-    <>
-      <Header />
-      {children}
-    </>
-  );
+  return <Layout>{children}</Layout>;
 }

@@ -1,4 +1,4 @@
-import { useData, Link } from 'aleph/react';
+import { useData } from 'aleph/react';
 import { microcmsClient } from '~/lib/microcmsClient.ts';
 import { ArticleCard } from '~/components/ArticleCard.tsx';
 import type { MicroCMSListResponse } from 'https://esm.sh/v90/microcms-js-sdk@2.2.1/dist/cjs/types.d.ts';
